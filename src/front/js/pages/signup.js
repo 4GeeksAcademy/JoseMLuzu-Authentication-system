@@ -54,9 +54,6 @@ export const Register = () => {
                             value={password}
                             onChange={(e) => setPassword(e.target.value)}
                         />
-                        <span className="input-group-text" onClick={() => setShowPassword(!showPassword)}>
-                            <i className={showPassword ? "fa-regular fa-eye-slash" : "fa-regular fa-eye"}></i>
-                        </span>
                     </div>
                 </div>
                 <button type="submit" className="btn btn-outline-success">Register</button>
